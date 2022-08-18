@@ -55,7 +55,7 @@ app.use((req, res, next) => {
 });
 
 // middlewares 
-app.use(cors(`${process.env.CORS}`));
+app.use(cors(`${process.env.PORT}`));
 app.use(cookieParser());
 
 const PORT = process.env.PORT;
