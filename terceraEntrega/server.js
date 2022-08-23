@@ -58,7 +58,7 @@ app.use(passport.session());
 app.use(cors(`${process.env.PORT}`));
 app.use(cookieParser());
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 
 // Routes
