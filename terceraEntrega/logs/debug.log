@@ -3,3 +3,7 @@
 {"level":"error","message":"Error al obtener el producto: TypeError: Cannot read property 'id' of undefined"}
 {"level":"info","message":"Servidor inciado en puerto 8080 con pid 19932"}
 {"level":"error","message":"Error al obtener el producto: TypeError: Cannot read property 'id' of undefined"}
+{"level":"info","message":"Servidor inciado en puerto 8080 con pid 18768"}
+{"level":"info","message":"Servidor inciado en puerto 8080 con pid 8092"}
+{"level":"info","message":"Servidor inciado en puerto 8080 con pid 16796"}
+{"level":"info","message":"Servidor inciado en puerto 8080 con pid 9708"}
