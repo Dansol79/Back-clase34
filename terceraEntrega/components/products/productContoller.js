@@ -16,7 +16,6 @@ export async function getProducto(res, req){
     
     try{
         const producto = await Productos.findById(req.params.id);
-       console.log(producto);
         if (!producto)
           return res
             .status(400)
