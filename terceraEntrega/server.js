@@ -3,7 +3,7 @@ import session from "express-session";
 import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import conectarDB from "./config/db.js";
+import {conectarDB} from "./config/db.js";
 import {dirname} from "path";
 import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
